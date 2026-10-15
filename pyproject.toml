@@ -1,0 +1,25 @@
+[project]
+name = "riskgrid"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Thecoolguy00", email = "arvindraj142.ar@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.5.9",
+    "langchain-chroma>=1.1.0",
+    "langchain-core>=1.6.10",
+    "langchain-ollama>=1.1.0",
+    "langchain-openrouter>=0.2.9",
+    "langchain-text-splitters>=1.1.3",
+    "pandas>=3.0.6",
+]
+
+[project.scripts]
+riskgrid = "riskgrid:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
