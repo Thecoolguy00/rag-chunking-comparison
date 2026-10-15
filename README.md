@@ -48,7 +48,9 @@ In the medication question, both Markdown-based strategies retrieved relevant me
 
 The blood glucose target question also showed a limitation: the reference document did not contain the requested target range. Better chunking cannot retrieve information that is absent from the source.
 
-Overall, the experiment compares the trade-offs between simplicity, document structure, and chunk size. More evaluation questions would be useful before concluding that one strategy performs best.
+Overall, the experiment compares the trade-offs between simplicity, document structure, and chunk size. 
+
+However, due to the small dataset and limited number of evaluation questions, the accuracy of the different chunking strategies could not be conclusively determined. 
 
 ## 4. Technologies
 
